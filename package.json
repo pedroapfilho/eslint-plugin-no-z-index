@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "description": "ESLint rule to disable the usage of z-index on tailwind classes and style attributes",
   "scripts": {
-    "test": "eslint tests/no-z-index.test.js"
+    "test": "eslint --debug tests/no-z-index.test.js"
   },
   "keywords": [
     "eslint",

@@ -17,11 +17,11 @@ ruleTester.run("no-z-index", rule, {
   invalid: [
     {
       code: '<div className="z-10"></div>',
-      errors: [{ message: 'Classname contains a "z-*" or "-z-*" value.' }],
+      errors: [{ message: 'Classname contains a "z-*" value.' }],
     },
     {
       code: '<div className="-z-20"></div>',
-      errors: [{ message: 'Classname contains a "z-*" or "-z-*" value.' }],
+      errors: [{ message: 'Classname contains a "z-*" value.' }],
     },
     {
       code: "<div style={{ zIndex: 10 }}></div>",
