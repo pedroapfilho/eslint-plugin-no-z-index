@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-no-z-index",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "ESLint rule to disable the usage of z-index on tailwind classes and style attributes",
+  "scripts": {
+    "test": "eslint tests/no-z-index.test.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "z-index",
+    "tailwind"
+  ],
+  "author": "Pedro Filho <pedro@filho.me>",
+  "license": "MIT",
+  "eslintConfig": {
+    "root": true,
+    "extends": "./eslint.config.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "eslint-plugin-mocha": "^10.4.3",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
